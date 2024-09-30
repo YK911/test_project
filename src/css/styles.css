@@ -1,18 +1,16 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+/* Utils styles */
+@import url('./utils/reset.css');
+@import url('./utils/animations.css');
+
 /* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+@import url('./common/base.css');
+@import url('./common/container.css');
+@import url('./common/sections.css');
+@import url('./common/button.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+@import url('./components/header.css');
+@import url('./components/vite-promo.css');
+@import url('./components/badges.css');
+@import url('./components/back-link.css');
+@import url('./components/footer.css');
